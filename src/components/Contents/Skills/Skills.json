@@ -1,0 +1,9 @@
+{
+    "Titles": ["React","Django","Python","Matlab",
+                "Database","PHP","Version Control","Adobe",
+                "Microsoft Office","Operating System"],
+    "Information": [],
+    "Images": [["/assets/IMG_0012.jpg"],[],[],[],
+                [],[],[],[],
+                [],[],[],[] ]
+}

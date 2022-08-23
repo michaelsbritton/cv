@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'ProductSans-Black';
+    src: local('ProductSans-Black'), url('../../../assets/fonts/ProductSans-Black.ttf') format('truetype');
+  }
+
+.SkillsContainer {
+    height: 100%;
+    width: 80vw;
+
+    /* background-color: #E8E6EA; */
+    background-image: linear-gradient(#8CB27F, #073F5A); 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SkillsCard {
+    /* height: 95vh; */
+    width: 90%;
+    background-color: #55725D;
+    border: 5px solid #1F1C17;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 15px;
+    margin: 20px 0;
+}
+
+.SkillsTitle {
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    font-family: ProductSans-Black;
+    color: #1F1C17;
+    text-shadow: 2px 2px 3px #E8E6EA;    
+    margin: 25px 0px 25px 15px;
+}
+
+.FlashcardContainer {
+    /* height: 95vh; */
+    /* width: 90%; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.FlashcardBack {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlashcardLogo {
+    filter: drop-shadow(5px 5px 3px #1F1C17);
+}
+
+.FlashcardTitle {
+    margin: 0 0 15px 0;
+}
+
+.FlashcardBody {
+    font-size: 0.75rem;
+    /* text-align: left; */
+}
+
+.FlashcardListBullet {
+    padding: 0 0 0 5px;
+}
+
+.FlashcardImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    row-gap: 1.5px;
+}
+
+.FlashcardIcon {
+    filter: drop-shadow(3px 3px 2px #1F1C17);
+}
+
+.DownArrowContainer {
+    margin: 25px 25px 5px 25px;
+}
+
+.ArrowDown:hover {
+    fill: #073F5A;
+}

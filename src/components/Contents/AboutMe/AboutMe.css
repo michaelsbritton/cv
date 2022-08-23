@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'ProductSans-Black';
+    src: local('ProductSans-Black'), url('../../../assets/fonts/ProductSans-Black.ttf') format('truetype');
+  }
+
+.AboutMeContainer {
+    height: 100vh;
+    width: 80vw;
+
+    /* background-color: #E8E6EA; */
+    background-image: linear-gradient(#55725D, #8CB27F); 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutMeCard {
+    height: 90%;
+    width: 90%;
+    background-color: #E6E2EA;
+    border: 7px solid #1F1C17;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+
+    padding: 15px 20px 0px 15px;
+    /* margin: 10px 0; */
+}
+
+.AboutMeTitle {
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    font-family: ProductSans-Black;
+    margin: 25px 0px 15px 15px;
+}
+
+.AboutMeBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.85rem;
+}
+
+.BodyLeft{
+    width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+
+    margin: 25px;
+}
+
+.BodyLeftDescription {
+    margin: 0 0 25px 0;
+}
+
+.BodyRight {
+    width: 500px;
+    border-left: 1.5px solid black;
+
+    padding: 0px 0px 0px 25px;
+}
+
+.BodyRightTitle {
+    font-size: 1.25rem;
+}
+
+.BodyRightSchool {
+    margin: 10px 0px;
+}
+
+.SchoolName {
+    font-weight: 800;
+    margin: 0 0;
+}
+
+.Row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 15px 0 0 0;
+}
+
+.Row3 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+    margin: 5px 0 0 0;
+}
+
+.Specialty {
+    text-align: left;   
+}
+
+.DownArrowContainer {
+    margin: 10px;
+}
+
+.ArrowDown:hover {
+    fill: #8CB278;
+}

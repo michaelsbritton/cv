@@ -1,0 +1,39 @@
+.ProjectContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ProjectTitle {
+    text-align: left;
+    font-weight: 900;
+}
+
+.ProjectTitle h3 {
+    margin: 10px;
+}
+
+.ProjectImageDescriptionContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ProjectImage img{
+    height: 200px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.ProjectDescription {
+    width: 50%;
+    text-align: left;
+    color: #E8E6EA;
+}
+
+.ProjectLink {
+    text-align: left;
+    font-size: medium;
+}

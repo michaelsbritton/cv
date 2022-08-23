@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'ProductSans-Black';
+    src: local('ProductSans-Black'), url('../../../assets/fonts/ProductSans-Black.ttf') format('truetype');
+  }
+
+.HomeContainer {
+    height: 100vh;
+    width: 80vw;
+
+    /* background-color: #E8E6EA; */
+    background-image: linear-gradient(#E8E6EA, #55725D); 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeCard {
+    width: 90%;
+    height: 90%;
+    background-color: #073F5A;
+    border: 5px solid #1F1C17;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 0px 15px;
+
+    box-shadow: 8px 10px 8px 3px rgba(0, 0, 0, 0.45)
+    /* box-shadow: 5px 5px 15px black; */
+    /* margin: 10px 0; */
+}
+
+.ImageContainer {
+    height: 225px;
+    width: 225px;
+
+    border: 10px solid #E8E6EA;
+    border-radius: 50%;
+
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 15px;
+}
+
+.ImageContainer img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.NameContainer {
+    margin: 15px;
+}
+
+.FirstName {
+    font-size: 2.75rem;
+    text-shadow: 1px 1px 2px #E8E6EA;
+}
+
+.LastName {
+    font-size: 2.75rem;
+    color: #8CB27F;
+    text-shadow: 2px 2px 3px black;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 33px;
+}
+
+.HomeButton {
+    width: 165px;
+    height: 40px;
+
+    background-color: #8CB27F;
+    color: #1F1C17;
+    border: 2.5px solid #1F1C17;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 15px;
+}
+
+.HomeButton:hover{
+    background-color: #55725d;
+}
+
+.ArrowDownContainer {
+    margin: 0px;
+}
+
+.DownArrow:hover {
+    fill: #1F1C17;
+}

@@ -1,0 +1,94 @@
+.Container {
+    /* width: 100%; */
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    border: 0px solid black;
+
+    padding: 0px 20px;
+    margin: 25px 10px;
+}
+
+.Clicker {
+    width: 200px;
+    height: 200px;
+    background-color: #55725D;
+    color: #E8E6EA;
+
+
+    border: 3.5px solid #E8E6EA;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Employer {
+    font-size: 1rem;
+}
+
+.Job {
+    font-size: 0.8rem;
+    margin: 10px 0px;
+}
+
+.SliderWrapper {
+    position: relative;
+    overflow: hidden;
+
+    width: 75%;
+    height: 185px; 
+    border: 0px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.PreSlider {
+    transition: 1s;
+
+    position: absolute;
+    left: -215px;
+
+    width: 225px;
+    height: 175px;
+    background-color: #8CB278;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 3.5px solid #8CB278;
+    border-radius: 8px;
+
+    margin: 0 0 0 10px;
+
+}
+
+.PostSlider {
+    transition: 1s;
+
+    position: absolute;
+    left: 0px;
+
+    width: 95%;
+    height: 175px;
+    background-color: #E8E6EA;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 3.5px solid #8CB278;
+    border-radius: 8px;
+
+    margin: 0 0 0 10px;
+    
+    white-space: nowrap;
+}

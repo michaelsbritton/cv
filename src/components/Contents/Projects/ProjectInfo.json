@@ -1,0 +1,19 @@
+{
+    "Title": ["Ratchecker", "EDECO", "Homework"],
+    "Image": ["Ratchecker_Home.png","EDECO_Flashcard.png","Homework_BookReport.png"],
+    "Alt": ["ratchecker screenshot", "edeco screenshot", "homework screenshot"],
+    "Information": [
+        ["Developed an item search tool for the video game Escape from Tarkov.", 
+        "Created front end content using React, including libraries such as Axios and Bootstrap", 
+        "Created back end content using Django and a static database"],
+        ["Currently developing a set of educational tools for use in schools, jukus, and other institutions",
+        "Created front end using React, including libraries such as Axios, Redux, and Bootstrap",
+        ""],
+        ["Currently developing a homework platform for private students. The goal is to allow them to keep track of, make drafts of, and submit their homework online. A centralized online repository allows teachers to keep work in a single location, but allows access from anywhere.",
+        "Created front end using React and used Firebase NoSQL Realtime Database"]
+    ],
+    "Link": [
+        "https://www.ratchecker.com/",
+        "https://edeco-build.vertices.ltd/",
+        "https://michaelsbritton.github.io/homework/"]
+}

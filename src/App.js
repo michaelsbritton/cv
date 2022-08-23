@@ -1,9 +1,16 @@
 import './App.css';
+import SideBar from './components/SideBar/SideBar';
+import Contents from './components/Contents/Contents';
 
 function App() {
   return (
     <div className="App">
-      This is my app now, mothafukka
+      <div className="SideBar">
+        <SideBar />
+      </div>
+      <div className="Contents">
+        <Contents />
+      </div>
     </div>
   );
 }

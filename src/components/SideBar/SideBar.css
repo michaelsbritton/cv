@@ -1,0 +1,100 @@
+.SideBarContainer {
+    /* height: 100vh; */
+    width: 20vw;
+    /* width: 20%; */
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 5px 5px 5px;
+    font-size: 2rem;
+}
+
+.LogoImg .Lines{
+    stroke: #1F1C17;
+}
+
+.LogoImg:hover .Lines{
+    stroke: #8CB27F;
+}
+
+.LogoText {
+    position: absolute;
+}
+
+.LogoM {
+    /* animation: flicker 1.5s infinite alternate; */
+    color: black;
+    text-shadow: 
+    0 0 5px #E8E6EA,
+    0 0 10px #E8E6EA,
+    0 0 15px #E8E6EA,
+    0 0 20px #E8E6EA,
+    0 0 25px #E8E6EA;
+}
+
+.LogoB {
+    /* animation: flicker 1.5s infinite alternate; */
+    color: black;
+    text-shadow: 
+        0 0 5px #E8E6EA,
+        0 0 10px #E8E6EA,
+        0 0 15px #E8E6EA,
+        0 0 20px #E8E6EA,
+        0 0 25px #E8E6EA;
+}
+
+.SideBarContainer ul {
+    list-style-type: none;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.SideBarContainer li {
+    margin: 25px 25px 25px 25px;
+}
+
+.SideBarContainer li:hover {
+    color: black;
+}
+
+.SideBarContainer a {
+    text-decoration: none;
+    color: #E8E6EA;
+}
+
+.SideBarContainer a:hover {
+    color: #8CB27F;
+}
+
+
+.SideBarContainer a:active {
+    color: red;
+}
+
+.HRDivider {
+    border-top: 1px solid black;
+    border-bottom: 0px solid black;
+    border-right: 0px solid black;
+    border-left: 0px solid black;
+}
+
+.Lines {
+    stroke: #1F1C17;
+}
+
+.MB {
+    stroke: #8CB27F;
+    /* stroke: #E8E6EA; */
+}

@@ -1,0 +1,31 @@
+import React from "react";
+
+function Icon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="210mm"
+      height="297mm"
+      version="1.1"
+      viewBox="0 0 210 297"
+    >
+      <g fill="none" stroke="#000" strokeOpacity="1">
+        <path
+          fillOpacity="1"
+          strokeDasharray="none"
+          strokeMiterlimit="4"
+          strokeWidth="0.865"
+          d="M187.818 168.135l-82.97 47.63-82.733-48.039.236-95.668 82.97-47.63 82.733 48.039z"
+        ></path>
+        <path
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          strokeWidth="0.265"
+          d="M105.32 24.428l-.472 191.337L22.351 72.058l165.703.409-165.939 95.26 165.703.408L22.35 72.058l165.703.409-83.206 143.298.472-191.337-83.205 143.298 165.703.41L105.32 24.427"
+        ></path>
+      </g>
+    </svg>
+  );
+}
+
+export default Icon;

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'ProductSans-Black';
+    src: local('ProductSans-Black'), url('../../../assets/fonts/ProductSans-Black.ttf') format('truetype');
+  }
+
+.WorkExperienceContainer {
+    height: 100%;
+    width: 80vw;
+
+    /* background-color: #E8E6EA; */
+    background-image: linear-gradient(#073F5A, #55725D); 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.WorkExperienceCard {
+    height: 100%;
+    width: 95%;
+    background-color: #1F1C17;
+    border: 5px solid #E6E2EA;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+
+    margin: 10px 0;
+}
+
+.WorkExperienceTitle {
+    width: 100%;
+    color:#E6E2EA;
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'ProductSans-Black';
+    /* text-shadow: 3px 3px 3px#8CB278; */
+    margin: 25px 0px 25px 15px;
+}
+
+
+.ArrowDownContainer {
+    margin: 0px;
+}
+
+.DownArrow:hover {
+    /* fill: #8CB27F; */
+    fill: #073F5A;
+}
