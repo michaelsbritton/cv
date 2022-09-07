@@ -20,7 +20,23 @@ const AboutMe = () => {
                             I have worked with computers and been able to program since I was a child, and I have continually developed these skills up to today.
                         </div>
                         <div className="BodyLeftDetails">
-                            This will be stats and details about me, not articulated in complete sentences.
+                            <div><b>Languages:</b></div>
+                            <div>
+                                <span>English - </span>
+                                <span>Native</span>
+                            </div>
+                            <div>
+                                <span>Japanese - </span>
+                                <span>N2</span>
+                            </div>
+                            <div>
+                                <span>Spanish - </span>
+                                <span>5 years</span>
+                            </div>
+                            <div>
+                                <span>French - </span>
+                                <span>2 years</span>
+                            </div>
                         </div>
                     </div>
                     <div className="BodyRight">

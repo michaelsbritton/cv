@@ -16,6 +16,21 @@
     align-items: center;
 }
 
+.FlippyBox {
+    width: 215px;
+    height: 325px;
+
+    background-clip: border-box;
+
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 0px;
+    transition: all .2s ease-in-out;
+}
+
+.FlippyBox:hover {
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 0px;
+    transform: translate3d(-1px, -17px, 0px);
+}
+
 .SkillsCard {
     /* height: 95vh; */
     width: 90%;

@@ -13,6 +13,7 @@ import LogoOS from '../../../assets/logos/OS.png';
 import LogoGit from '../../../assets/logos/Git.png';
 import LogoAdobe from '../../../assets/logos/Adobe.png';
 import LogoDB from '../../../assets/logos/DB.png';
+import LogoDesign from '../../../assets/logos/Design.png';
 
 import SkillInfo from './SkillInfo';
 
@@ -21,7 +22,7 @@ import './Skills.css';
 const Skills = () => {
 
 
-    const logos = [LogoReact, LogoDjango, LogoPython, LogoMatlab, LogoDB, LogoPHP, LogoGit, LogoAdobe, LogoOffice, LogoOS];
+    const logos = [LogoReact, LogoDjango, LogoPython, LogoMatlab, LogoDB, LogoGit, LogoDesign, LogoPHP, LogoAdobe, LogoOffice, LogoOS];
 
     const FlashcardInfo = SkillInfo()
 
@@ -37,51 +38,52 @@ const Skills = () => {
 
     function Sample(logo, idx) {
         return (
-          <Flippy
-            key={idx}
-            flipOnHover={false}
-            flipOnClick={true} 
-            flipDirection="horizontal"
+            <Flippy
+                className="FlippyBox"
+                key={idx}
+                flipOnHover={false}
+                flipOnClick={true} 
+                flipDirection="horizontal"
 
-            style={{ width: '215px', height: '325px' }}
-        >
-          <FrontSide style={{ border: '2px solid #1F1C17', backgroundColor: '#E8E6EA', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }} >
-            <img className="FlashcardLogo" alt="skill logo" src={logo}  height="25%" style={{ textShadow: '0px 0px 4px black'}}/>
-          </FrontSide>
-          <BackSide style={{ border: '2px solid #1F1C17', backgroundColor: '#E8E6EA', padding: "10px 5px 5px 5px" }}>
-            <div className="FlashcardBack">
-                <div className="FlashcardTitle">
-                    <b><u>{FlashcardInfo.Titles[idx]}</u></b>
-                </div>
-                <div className="FlashcardImages" style={{  gridTemplateColumns: 'repeat('+FlashcardInfo.ImageProperties[idx][0]+', 1fr)', padding: '0 0 0 0', alignItems: 'center'   }}>
-                    {FlashcardInfo.Images[idx].map((img, idx3) => (
-                        <span key={idx3}><img className="FlashcardIcon" alt="skill logo" src={img} width={FlashcardInfo.ImageProperties[idx][1]+"%"}/>
-                        </span>
-                    )
-                    )}
-                </div>
-                <div className="FlashcardBody">
-                    <div className="FlashcardListBullet">
-                        {FlashcardInfo.Information[idx].map((info, idx2) => (
-                            <div key={idx2}>
-                            <hr />
-                            {info}
-                            {/* <hr /> */}
+                // style={{ width: '215px', height: '325px' }}
+            >
+                <FrontSide style={{ border: '2px solid #1F1C17', backgroundColor: '#E8E6EA', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', borderRadius: '25px' }} >
+                    <img className="FlashcardLogo" alt="skill logo" src={logo}  height="25%" style={{ textShadow: '0px 0px 4px black'}}/>
+                </FrontSide>
+                <BackSide style={{ border: '2px solid #1F1C17', backgroundColor: '#E8E6EA', padding: "10px 5px 5px 5px", borderRadius: '25px' }}>
+                    <div className="FlashcardBack">
+                        <div className="FlashcardTitle">
+                            <b><u>{FlashcardInfo.Titles[idx]}</u></b>
+                        </div>
+                        <div className="FlashcardImages" style={{  gridTemplateColumns: 'repeat('+FlashcardInfo.ImageProperties[idx][0]+', 1fr)', padding: '0 0 0 0', alignItems: 'center'   }}>
+                            {FlashcardInfo.Images[idx].map((img, idx3) => (
+                                <span key={idx3}><img className="FlashcardIcon" alt="skill logo" src={img} width={FlashcardInfo.ImageProperties[idx][1]+"%"}/>
+                                </span>
+                            )
+                            )}
+                        </div>
+                        <div className="FlashcardBody">
+                            <div className="FlashcardListBullet">
+                                {FlashcardInfo.Information[idx].map((info, idx2) => (
+                                    <div key={idx2}>
+                                    <hr />
+                                    {info}
+                                    {/* <hr /> */}
+                                    </div>
+                                ) 
+                                )}
                             </div>
-                        ) 
-                        )}
+                        </div>
+                        {/* <div className="FlashcardImages" style={{  gridTemplateColumns: 'repeat('+FlashcardInfo.ImageProperties[idx][0]+', 1fr)', padding: '0 0 0 0', alignItems: 'center'   }}>
+                            {FlashcardInfo.Images[idx].map((img, idx3) => (
+                                <span key={idx3}><img className="FlashcardIcon" alt="skill logo" src={img} width={FlashcardInfo.ImageProperties[idx][1]+"%"}/>
+                                </span>
+                            )
+                            )}
+                        </div> */}
                     </div>
-                </div>
-                {/* <div className="FlashcardImages" style={{  gridTemplateColumns: 'repeat('+FlashcardInfo.ImageProperties[idx][0]+', 1fr)', padding: '0 0 0 0', alignItems: 'center'   }}>
-                    {FlashcardInfo.Images[idx].map((img, idx3) => (
-                        <span key={idx3}><img className="FlashcardIcon" alt="skill logo" src={img} width={FlashcardInfo.ImageProperties[idx][1]+"%"}/>
-                        </span>
-                    )
-                    )}
-                </div> */}
-            </div>
-          </BackSide>
-        </Flippy>
+                </BackSide>
+            </Flippy>
         )
       }
 
