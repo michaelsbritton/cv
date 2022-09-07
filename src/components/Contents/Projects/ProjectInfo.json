@@ -1,7 +1,7 @@
 {
     "Title": ["Ratchecker", "EDECO", "Homework"],
-    "Image": ["Ratchecker_Home.png","EDECO_Flashcard.png","Homework_BookReport.png"],
-    "Alt": ["ratchecker screenshot", "edeco screenshot", "homework screenshot"],
+    "Image": ["RatcheckerHome.png","EDECOFlashcard.png","HomeworkBookReport.png"],
+    "Alt": ["Ratchecker screenshot", "edeco screenshot", "homework screenshot"],
     "Information": [
         ["Developed an item search tool for the video game Escape from Tarkov.", 
         "Created front end content using React, including libraries such as Axios and Bootstrap", 

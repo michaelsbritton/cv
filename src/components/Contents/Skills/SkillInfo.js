@@ -6,7 +6,7 @@ import IconRedux from '../../../assets/icons/Redux.png';
 import IconRest from '../../../assets/icons/RestAPI.png';
 import IconPandas from '../../../assets/icons/Pandas.png';
 import IconNumPy from '../../../assets/icons/NumPy.png';
-import IconSPM from '../../../assets/icons/SPM.svg';
+import IconSPM from '../../../assets/icons/SPM.png';
 import IconMySQL from '../../../assets/icons/MySQL.png';
 import IconMongoDB from '../../../assets/icons/MongoDB.png';
 import IconPostgres from '../../../assets/icons/PostrgresSQL.png';

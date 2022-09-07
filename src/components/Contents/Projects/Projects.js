@@ -17,7 +17,8 @@ const Projects = () => {
                 {ProjectData.Title.map((t, idx)=>
                     <>
                     <Project 
-                        key={idx} 
+                        key={idx}
+                        num={idx} 
                         title={t} 
                         image={ProjectData.Image[idx]} 
                         alt={ProjectData.Alt[idx]}
